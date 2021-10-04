@@ -2,19 +2,18 @@
 # Example file for working with timedelta objects
 #
 
-from datetime import date
-from datetime import time
-from datetime import datetime
+from datetime import date, time, datetime, timedelta
 
 
 # construct a basic timedelta and print it
-
+print(timedelta(days=365,hours=5,minutes=1))
 
 # print today's date
-
+now = datetime.now()
+print("Today is: " + str(now))
 
 # print today's date one year from now
-
+print("One year from now it will be: " + str(now + timedelta(365)))
 
 # create a timedelta that uses more than one argument
 

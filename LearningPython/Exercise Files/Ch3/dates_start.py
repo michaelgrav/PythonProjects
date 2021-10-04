@@ -27,5 +27,6 @@ def main():
     t = datetime.time(datetime.now())
     print(t)
 
+
 if __name__ == "__main__":
     main()
